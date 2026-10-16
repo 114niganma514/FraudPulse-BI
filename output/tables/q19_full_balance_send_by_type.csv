@@ -1,0 +1,5 @@
+type_name,full_balance_send,transaction_count,fraud_count,fraud_rate_pct
+CASH_OUT,1,4091,4091.0,100.0
+TRANSFER,1,3943,3943.0,100.0
+TRANSFER,0,528966,154.0,0.03
+CASH_OUT,0,2233409,25.0,0.0

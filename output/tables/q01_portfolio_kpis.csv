@@ -1,0 +1,2 @@
+total_transactions,total_amount,fraud_transactions,fraud_amount,fraud_rate_pct,fraud_amount_rate_pct,flagged_fraud,detection_coverage_pct
+6362620,1144392944759.77,8213.0,12056415427.84,0.1291,1.0535,16.0,0.19

@@ -1,0 +1,3 @@
+full_balance_send,transaction_count,fraud_count,fraud_rate_pct,fraud_amount
+1,8034,8034.0,100.0,10577883640.01
+0,6354586,179.0,0.0,1478531787.83

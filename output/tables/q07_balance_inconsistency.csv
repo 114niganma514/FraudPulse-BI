@@ -1,0 +1,5 @@
+orig_balance_inconsistent,dest_balance_inconsistent,transaction_count,fraud_count,fraud_rate_pct
+1,1,90759,1.0,0.001
+1,0,1421849,19.0,0.001
+0,1,1388907,118.0,0.008
+0,0,3461105,8075.0,0.233

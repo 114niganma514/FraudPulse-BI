@@ -1,0 +1,20 @@
+{
+  "rows_by_type": {
+    "CASH_OUT": 2237500,
+    "PAYMENT": 2151495,
+    "CASH_IN": 1399284,
+    "TRANSFER": 532909,
+    "DEBIT": 41432
+  },
+  "rows_by_type_fraud": {
+    "CASH_IN:0": 1399284,
+    "CASH_OUT:0": 2233384,
+    "CASH_OUT:1": 4116,
+    "DEBIT:0": 41432,
+    "PAYMENT:0": 2151495,
+    "TRANSFER:0": 528812,
+    "TRANSFER:1": 4097
+  },
+  "total_rows": 6362620,
+  "fraud_rows": 8213
+}

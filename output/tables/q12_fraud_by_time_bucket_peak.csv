@@ -1,0 +1,7 @@
+time_bucket,is_peak_hour,transaction_count,fraud_count,fraud_rate_pct
+Night,0,44438,2054.0,4.622
+Morning,0,319421,1037.0,0.325
+Late Evening,0,212844,623.0,0.293
+Evening,1,1643903,1380.0,0.084
+Morning,1,1355139,1038.0,0.077
+Afternoon,1,2786875,2081.0,0.075

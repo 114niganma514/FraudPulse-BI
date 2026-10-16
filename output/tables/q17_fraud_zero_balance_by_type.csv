@@ -1,0 +1,5 @@
+type_name,orig_balance_state,transaction_count,fraud_count,fraud_rate_pct
+TRANSFER,positive,250126,4093.0,1.636
+CASH_OUT,positive,1211701,4079.0,0.337
+CASH_OUT,zero,1025799,37.0,0.004
+TRANSFER,zero,282783,4.0,0.001

@@ -1,0 +1,17 @@
+type_name,amount_bucket,transaction_count,fraud_count,fraud_rate_pct
+TRANSFER,Huge (>100k),470866,3255.0,0.69
+CASH_OUT,Huge (>100k),1463431,3251.0,0.22
+CASH_OUT,Large (10k-100k),701312,718.0,0.1
+TRANSFER,Large (10k-100k),55959,711.0,1.27
+CASH_OUT,Medium (1k-10k),110,110.0,100.0
+TRANSFER,Medium (1k-10k),110,110.0,100.0
+CASH_OUT,Small (100-1k),20,20.0,100.0
+TRANSFER,Small (100-1k),20,20.0,100.0
+CASH_OUT,Tiny (<100),17,17.0,100.0
+TRANSFER,Tiny (<100),1,1.0,100.0
+CASH_IN,Huge (>100k),901878,0.0,0.0
+CASH_IN,Large (10k-100k),449798,0.0,0.0
+DEBIT,Huge (>100k),153,0.0,0.0
+DEBIT,Large (10k-100k),3631,0.0,0.0
+PAYMENT,Huge (>100k),1036,0.0,0.0
+PAYMENT,Large (10k-100k),1028553,0.0,0.0

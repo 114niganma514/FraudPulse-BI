@@ -1,0 +1,15 @@
+# --- FraudPulse BI .gitignore ---
+# Sensitive configuration (contains MySQL password)
+config/db_config.json
+
+# Raw & processed data (large files, download separately - see README)
+data/raw/
+data/processed/*.csv
+
+# Python / Streamlit caches
+__pycache__/
+*.pyc
+.streamlit/
+.venv/
+venv/
+.pytest_cache/

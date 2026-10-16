@@ -1,0 +1,4 @@
+is_fraud,is_flagged_fraud,transaction_count,total_amount
+1,1,16,77785563.69
+1,0,8197,11978629864.15
+0,0,6354407,1132336529331.93
