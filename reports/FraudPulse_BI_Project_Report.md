@@ -24,7 +24,7 @@ dashboard. The project demonstrates the entire SQL + BI workflow a risk
 analytics or data-engineering role expects: schema design, ETL bulk loading,
 window-function analytics, business-view modeling, and interactive reporting.
 
-The headline business finding is sharp and interview-ready:
+The headline business finding:
 
 > **When a sender transfers their exact full account balance
 > (`oldbalance_org = amount`), the transaction is fraudulent in 100% of cases —
@@ -186,11 +186,10 @@ One SQL expression → **100% precision, 97.8% recall of all fraud**. By channel
 CASH_OUT full-send = 4,091 fraud (100%), TRANSFER full-send = 3,943 fraud (100%).
 The remaining 179 frauds sit in non-full-send TRANSFER/CASH_OUT.
 
-### 6.6 Honest note on a naive feature
+### 6.6 Note on a naive feature
 A generic "balance-accounting mismatch" flag (`newbalance_orig ≠ old − amount`)
 did **not** discriminate fraud (the clean-accounting group had the higher
-fraud rate, 0.233% vs 0.001–0.008%). The lesson — and a good interview story —
-is that the **right business feature** (full-balance drain) matters more than
+fraud rate, 0.233% vs 0.001–0.008%). The lesson is that the **right business feature** (full-balance drain) matters more than
 the plausible-looking one (generic mismatch). The data also shows fraud comes
 from **positive-balance** originators (0.192% vs 0.002% for zero-balance).
 

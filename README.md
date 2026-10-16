@@ -2,7 +2,7 @@
 
 **SQL Data Warehouse & BI Dashboard for Mobile Payment Fraud Analytics**
 
-A complete, resume-ready risk-analytics project that demonstrates **SQL hard
+A complete risk-analytics project that demonstrates **SQL hard
 skills on a real database (MySQL 8)** plus an **interactive BI dashboard**.
 It is built on the public **PaySim** mobile-payment fraud dataset (6.36M
 transactions) and runs the full pipeline end-to-end: raw data → dimensional
@@ -12,10 +12,10 @@ warehouse → business SQL analytics → interactive & static reporting.
 
 ## Why this project
 
-| Skill highlighted | What you will show in an interview |
+| Area | What the project demonstrates |
 |---|---|
 | **SQL (hard skills)** | Star-schema DDL, indexes, CTEs, window functions, views, aggregate analytics, KPI definitions (business definitions) |
-| **Real database** | MySQL 8 server, JDBC-style Python connectors, bulk ETL load |
+| **Real database** | MySQL 8 server, PyMySQL / SQLAlchemy connectors, bulk ETL load |
 | **BI / reporting** | Interactive Streamlit + Plotly dashboard; static HTML report; CSV audit trail |
 | **Business sense** | Fraud KPIs, risk segmentation, channel analysis, data-quality anomaly detection |
 
