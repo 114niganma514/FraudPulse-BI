@@ -63,6 +63,7 @@ FraudPulse_BI/
 ### 0. Prerequisites
 - MySQL 8 server running locally
 - Python 3.10+
+- PaySim CSV from Kaggle (`ealaxi/paysim1`), saved as `data/raw/paysim_transactions.csv` (not committed, ~470MB)
 
 ### 1. Install dependencies
 ```bash
