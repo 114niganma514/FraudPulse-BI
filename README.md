@@ -1,5 +1,7 @@
 # FraudPulse BI
 
+![Project cover](.github/cover.png)
+
 **SQL Data Warehouse & BI Dashboard for Mobile Payment Fraud Analytics**
 
 A complete risk-analytics project that demonstrates **SQL hard
